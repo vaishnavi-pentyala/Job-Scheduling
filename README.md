@@ -20,26 +20,26 @@ This helps in understanding how the CPU handles multiple processes efficiently.
 
 # Scheduling Algorithms Implemented
 
-# 1. FCFS (First Come First Serve)
+### 1. FCFS (First Come First Serve)
 Processes are executed in the order they arrive.
 
-# 2. Round Robin (RR)
+### 2. Round Robin (RR)
 Each process gets a fixed time quantum for execution.
 
-# 3. SPN (Shortest Process Next)
+### 3. SPN (Shortest Process Next)
 Process with the shortest burst time gets selected first.
 
-# 4. SRT (Shortest Remaining Time)
+### 4. SRT (Shortest Remaining Time)
 Process with the least remaining execution time is selected.
 
-# 5. HRRN (Highest Response Ratio Next)
+### 5. HRRN (Highest Response Ratio Next)
 Process with the highest response ratio gets priority.
 
-# 6. Feedback Queue (FB-1)
+### 6. Feedback Queue (FB-1)
 
-# 7. Feedback Queue (FB-2i)
+### 7. Feedback Queue (FB-2i)
    
-# 8. Aging
+### 8. Aging
 Used to prevent starvation by gradually increasing priority.
 
 # Technologies Used
@@ -54,10 +54,10 @@ Used to prevent starvation by gradually increasing priority.
 
 # How to Run
 
-# Compile
+### Compile
 g++ main.cpp -o main
 
-# Run
+### Run
 ./main
 For Windows PowerShell:
 
